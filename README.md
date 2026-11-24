@@ -1,10 +1,18 @@
 # Sentinal AI – Text Sentiment Analysis
 
-An interactive machine learning application that classifies text into three sentiment categories: Negative, Neutral, and Positive.
+An interactive machine learning application that classifies text into three sentiment categories: **Negative, Neutral, and Positive**.
 
 Built using Python, Streamlit, TF-IDF feature extraction, Logistic Regression, and multiple optimization algorithms.
 
-## Features
+## 🚀 Live Demo
+
+**Try Sentinal AI here:**
+
+[Launch Sentinal AI](https://sentinal-ai-sgrdf4pzxepr2rgqss6tmw.streamlit.app/)
+
+The application is deployed using Streamlit Community Cloud.
+
+## ✨ Features
 
 - Real-time sentiment prediction.
 - Six trained machine learning models.
@@ -14,8 +22,9 @@ Built using Python, Streamlit, TF-IDF feature extraction, Logistic Regression, a
 - Confusion matrices and classification reports.
 - Feature-level explainability showing words supporting or opposing predicted sentiment.
 - Interactive visualizations using Plotly.
+- Prediction history and model comparison.
 
-## Machine Learning Models
+## 🧠 Machine Learning Models
 
 1. Scikit-learn Logistic Regression
 2. Batch Gradient Descent
@@ -24,9 +33,9 @@ Built using Python, Streamlit, TF-IDF feature extraction, Logistic Regression, a
 5. Newton-CG
 6. Golden Section Search
 
-## Dataset
+## 📊 Dataset
 
-This project uses the TweetEval sentiment dataset.
+This project uses the **TweetEval Sentiment Dataset**.
 
 The classification labels are:
 
@@ -40,7 +49,7 @@ The dataset is divided into training, validation, and test sets.
 
 The test set is evaluated separately from model selection.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3.12
 - NumPy
@@ -52,7 +61,7 @@ The test set is evaluated separately from model selection.
 - Plotly
 - Matplotlib
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Sentinal-AI/
@@ -63,16 +72,11 @@ Sentinal-AI/
 │   └── explainability.py
 │
 ├── models/
-│   ├── logistic_regression.pkl
-│   ├── logistic_regression_scratch_best.pkl
-│   ├── mini_batch_logistic_regression.pkl
-│   ├── stochastic_logistic_regression.pkl
-│   ├── newtons_method_model.pkl
-│   ├── golden_section_search.pkl
-│   └── tfidf_vectorizer.pkl
 │
 ├── optimization/
+│
 ├── preprocessing/
+│
 ├── feature_extraction/
 │
 ├── evaluation/
@@ -84,12 +88,12 @@ Sentinal-AI/
 └── README.md
 ```
 
-## Installation
+## ⚙️ Installation
 
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/RYTHEM3/Sentinal-AI.git
 ```
 
 Navigate into the project:
@@ -116,7 +120,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Run the Application
+## ▶️ Run the Application Locally
 
 Start the Streamlit dashboard:
 
@@ -126,7 +130,7 @@ streamlit run app/dashboard.py
 
 Open the local URL displayed in your terminal.
 
-## Evaluation
+## 📈 Evaluation
 
 The project evaluates models using:
 
@@ -140,7 +144,7 @@ The project evaluates models using:
 
 The final test evaluation is kept separate from validation-based model selection.
 
-## Explainability
+## 🔍 Explainability
 
 Sentinal AI provides feature-level explanations using TF-IDF feature contributions and model weights.
 
@@ -148,15 +152,18 @@ It identifies words that increase or decrease the raw score of each sentiment cl
 
 These contributions explain model behavior; they should not be interpreted as causal explanations.
 
-## Deployment
+## ☁️ Deployment
 
-The application is designed for deployment using Streamlit Community Cloud.
+The application is deployed on **Streamlit Community Cloud**.
 
-## Disclaimer
+**Live Application:**  
+https://sentinal-ai-sgrdf4pzxepr2rgqss6tmw.streamlit.app/
+
+## ⚠️ Disclaimer
 
 This project classifies sentiment expressed in text. It does not determine a person's actual emotions, intentions, or psychological state.
 
 ---
 
 **Sentinal AI**  
-Text Sentiment Analysis using Machine Learning and Optimization Algorithms.
+*Text Sentiment Analysis using Machine Learning and Optimization Algorithms.*
