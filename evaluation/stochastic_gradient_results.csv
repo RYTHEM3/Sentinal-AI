@@ -1,0 +1,2 @@
+Optimization,Learning Rate,Epochs,Training Accuracy,Validation Accuracy,Macro F1,Final Loss,Training Time
+Stochastic Gradient Descent,0.01,10,0.6679394338380513,0.633,0.5511540067090039,0.7821595549283153,49.590179204940796

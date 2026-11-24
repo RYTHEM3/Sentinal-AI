@@ -1,0 +1,2 @@
+Optimization,Learning Rate,Batch Size,Epochs,Training Accuracy,Validation Accuracy,Macro F1,Final Loss,Training Time
+Mini-Batch Gradient Descent,5.0,256,100,0.7193767829712531,0.6245,0.6100020864164111,0.7629279931169393,5.062774419784546

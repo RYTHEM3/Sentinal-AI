@@ -1,0 +1,2 @@
+Optimization,Epochs,Training Accuracy,Validation Accuracy,Macro F1,Final Loss,Training Time
+Newton-CG,5,0.6657450076804915,0.6345,0.5331703071320527,0.7802211835882151,0.49460697174072266

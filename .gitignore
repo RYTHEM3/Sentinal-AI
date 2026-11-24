@@ -1,0 +1,28 @@
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Training datasets
+dataset/
+
+# Debug files
+check_pickle.py
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db

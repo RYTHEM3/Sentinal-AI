@@ -1,0 +1,2 @@
+Algorithm,Training Accuracy,Validation Accuracy,Macro F1,Final Loss,Training Time
+Golden Section Search,0.6499890278692122,0.6105,0.567971768628036,0.7906341116335425,39.73998236656189
