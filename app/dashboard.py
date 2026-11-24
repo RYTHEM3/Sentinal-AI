@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from pathlib import Path
+import sys
 
+# Add project root to Python import path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from app.prediction_engine import (
     load_prediction_resources,
     predict_sentiment,
